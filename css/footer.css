@@ -1,0 +1,81 @@
+.footer {
+  width: 100%;
+  padding: 4rem 12%;
+  background-color: #2b2523;
+  text-align: center;
+}
+
+.footer .subscriber {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.subscriber h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+.subscriber p {
+  font-size: 1.7rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.subscriber form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer form input[type="email"] {
+  width: 30rem;
+  height: 4.5rem;
+  padding: 0 1rem;
+  border: 2px solid #ff4400;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+.footer form input[type="submit"] {
+  width: 10rem;
+  height: 4.5rem;
+  background-color: #ff4400;
+  color: #fff;
+  border: 0;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.footer .footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.footer-content .col {
+  text-align: left;
+}
+.col h2 {
+  font-size: 2rem;
+  color: #ff4400;
+}
+.col ul li {
+  margin-top: 1rem;
+}
+.col ul li a {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.col .social-media {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.col .social-media li a {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.post-container {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.post-container .content {
+  width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.content h1 {
+  font-size: 6rem;
+  line-height: 1;
+}
+.content h2 {
+  font-size: 3rem;
+}
+.content .date {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.date p {
+  font-size: 1.8rem;
+  color: #595756;
+}
+
+.content .row {
+  width: 100%;
+  padding: 2rem;
+  background-color: #f5f3f2;
+  border-radius: 1.5rem;
+}
+.content .row p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ff4400;
+}
+
+.content p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.content ol {
+  margin-left: 2.5rem;
+}
+
+.content ol li {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.content ol li span {
+  color: #ff4400;
+  margin-right: 0.8rem;
+}

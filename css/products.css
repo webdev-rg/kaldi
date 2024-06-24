@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.product-hero-section {
+  width: 100%;
+  height: 75vh;
+  padding: 0 12%;
+  background-image: url(../images/products-jumbotron-17.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.product-hero-section h1 {
+  font-size: 7rem;
+  background-color: #ff4400;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.what-we-offer {
+  width: 100%;
+  padding: 4rem 12%;
+}
+.what-we-offer h1 {
+  font-size: 5rem;
+}
+.what-we-offer p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.what-we-offer .offers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.offers .offer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.offer img {
+  width: 24rem;
+}
+.offer p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.product-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.product-btn a {
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 1px solid #ff4400;
+  color: #ff4400;
+  border-radius: 1rem;
+  transition: 0.2s ease-in-out;
+}
+.product-btn a:hover {
+  background-color: #ffead3;
+}
+
+.no-compromises {
+  width: 100%;
+  padding: 4rem 12%;
+}
+
+.no-compromises h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.no-compromises p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.no-compromises .image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.image-container .col-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.col-1 .img {
+  width: 50%;
+}
+.img img {
+  width: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.image-container .col-2 {
+  width: 100%;
+}
+.col-2 img {
+  width: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.no-compromises .quotes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.quotes .quote {
+  background-color: #f5f3f2;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.quote q {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ff4400;
+}
+.quote span {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #595756;
+}
+
+/* Cup Image */
+
+.cup-image {
+  width: 100%;
+}
+.cup-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Monthly Subscription */
+.monthly-subscription {
+  width: 100%;
+  padding: 4rem 12%;
+}
+.monthly-subscription h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.monthly-subscription p {
+  font-size: 2rem;
+  line-height: 1.5; 
+}
+
+.monthly-subscription .price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.price-container .price {
+  width: 100%;
+  text-align: center;
+}
+.price p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #595756;
+}
+.price h1 {
+  color: #ff4400;
+  font-size: 4rem;
+}
+.price h1 small {
+  font-size: 2rem;
+}
+.price h2 {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.price ul {
+  margin-top: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.price ul li {
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  border-bottom: 4px solid #f5f3f2;
+}

@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  height: 6rem;
+  padding: 0 3%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo,
+.header .navbar,
+.navbar .navlinks,
+.navlinks li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.navlinks {
+  gap: 3rem;
+}
+
+.navlinks li {
+  padding: 0 1.4rem;
+  position: relative;
+}
+.navlinks li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ff4400;
+  transition: 0.3s ease-in-out;
+}
+.navlinks li:hover::after {
+  width: 100%;
+}
+.navlinks li.active::after {
+  width: 100%;
+}
+.navlinks li a {
+  font-size: 1.6rem;
+  color: #595657;
+  transition: 0.3s ease-in-out;
+}
+.navlinks li:hover a {
+  color: #ff4400;
+}
+.navlinks li.active a {
+  color: #ff4400;
+}

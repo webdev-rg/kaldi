@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.contact-section {
+  width: 100%;
+  padding: 4rem 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact-section .logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 15rem;
+}
+
+.contact-section p {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
+.contact-section .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.contact-section .contact-form {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+.contact-section .contact-form h2 {
+  font-size: 3rem;
+}
+.contact-section .contact-form .input-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.input-group .input-field {
+  width: 100%;
+  height: 5rem;
+}
+.input-field input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ff4400;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+.contact-form textarea {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ff4400;
+  border-radius: 1rem;
+  resize: none;
+}
+
+.contact-form input[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 1rem 3rem;
+  background-color: transparent;
+  border: 1px solid #ff4400;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ff4400;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: #ffead3;
+}
